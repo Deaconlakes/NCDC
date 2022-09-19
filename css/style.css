@@ -1,11 +1,12 @@
 body{
     /* padding: 30px 0px 30px 30px; */
+    height: 2000px;
     
     
 }
 
 header{
-    /* padding: 30px 0px 20px 0px; */
+    padding: -3px 0px 20px 0px;
 }
 
 header .logo1 img{
@@ -30,58 +31,375 @@ span.nija{
     font-family: "poppins", sans-serif;
     margin-top: -6px;
     color: black;
-    margin-left: 93px;
+    margin-left: 59px;
 }
 
 span.slogan{
     font-family: cursive;
     float: right;
-    margin-right: 8px;
+    margin-right: 44px;
     font-size: 23px;
     color: #9E9E9E;
 }
 
-header .nav-bar{
+.nav-bar{
     background-color: #388E3C;
-    margin: -16px 116px -31px 86px;
-}
-
-header .nav-bar ul{
-    padding: 11px;
-}
-
-header .nav-bar ul li{
-    display: inline;
-    padding: 12px;
-    margin-left: 3px;
-    font-size: 14px;
-    font-family: "Segoe" sans-serif;
-    position: relative;
+    height: auto;
+    padding: 1px;
+    margin: 0px 94px 0px 80px;
     
 
 }
 
-header .nav-bar ul li.active{
+.nav-bar nav{
+    /* display: block; */
+    margin-left: -84px;
+
+}
+
+.nav-bar nav ul{
+    display: flex;
+    margin-left: 76px;
+}
+
+.nav-bar nav ul li{
+    list-style: none;
+}
+
+.nav-bar nav ul li a{
+   display: block;
+   text-decoration: none;
+   font-family: "mada",sans-serif;
+   font-size: 12px;
+   font-weight: 200;
+   color: #ffff;
+   padding-right: 31px;
+   padding-left: 6px;
+}
+
+.active{
     background-color: #FFC82D;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    display: block;
 
 }
 
-header .nav-bar ul li a{
-    text-decoration: none;
+.nav-bar nav ul li a .fas{
+    margin-left: 6px;
+}
+
+.grid-container{
+    padding: 25px;
+}
+
+.content{
+    background-color: #D82138;
+    height: 100%;
+}
+
+.content .write-up {
+    padding: 10px;
+    padding-bottom: 46px;
+
+}
+
+.write-up h1{
     color: #ffff;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    line-height: 6px;
-
-
+    font-size: 25px;
+    font-family: "roboto", sans-serif;
+    font-weight: 200;
+    margin-left: 29px;
 }
 
-header .nav-bar ul li a.active{
+.write-up hr{
+    width: 54%;
+    float: left;
+    font-size: 0px;
+    margin-bottom: -11px;
+}
+
+.write-up p{
+    font-size: 25px;
+    text-align: center;
+    color: #ffff;
+    font-family: "roboto", sans-serif;
+    padding-top: 44px;
+}
+
+.write-up button{
+    text-align: center;
+    margin-left: 126px;
+    padding: 27px 75px;
+    font-size: 21px;
+    color: #D82138;
+    background-color: #FFFFFF;
+    border: none;
     
 }
 
+.write-up button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.pic-story img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 7px;
+    
+}
+
+.mosquito{
+    background-color: #F5F5F5;
+    padding-left: 1px;
+    margin-right: 12px;
+}
+
+.mosquito img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.mosquito .A-Z .head{
+    background-color: #D82138;
+    padding: 1px;
+    margin: -1px;
+    margin-bottom: -37px;
+    font-size: 9px;
+}
+
+.mosquito .A-Z .head h1 a{
+    text-decoration: none;
+    color: #F5F5F5;
+    font-size: 17px;
+    margin-left: 12px;
+}
+
+
+.mosquito P{
+    font-size: 16px;
+    color: #4E4E4E;
+    padding: 29px 6px 18px 7px;
+    line-height: 19px;
+}
+
+.mosquito .training .head2{
+    background-color: #1976D2;
+    padding: 1px;
+    margin: -1px;
+    margin-bottom: -37px;
+    font-size: 9px;
+}
+
+.mosquito .training h1 a{
+    text-decoration: none;
+    color: #F5F5F5;
+    font-size: 17px;
+    margin-left: 12px;
+}
+
+.mosquito .DG .head3{
+    background-color: #388E3C;
+    padding: 1px;
+    margin: -1px;
+    margin-bottom: -37px;
+    font-size: 9px;
+}
+
+.mosquito .DG h1 a{
+    text-decoration: none;
+    color: #F5F5F5;
+    font-size: 17px;
+    margin-left: 12px;
+}
+
+
+/* section .section-c */
+
+.section-c .grid-container{
+    margin-top: -44px;
+}
+
+.covid1{
+    background-color: #F5F5F5;
+    padding-left: 1px;
+    margin-right: 12px;
+}
+
+.covid1 img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.covid1 .action .plan{
+    background-color: #F57C00;
+    padding: 1px;
+    margin: 1px;
+    margin-bottom: -9px;
+    font-size: 3px;
+}
+
+
+.covid1 .plan h1 a{
+    text-decoration: none;
+    color: #F5F5F5;
+    font-size: 17px;
+    margin-left: 0px;
+    text-align: justify;
+    padding: 0px;
+}
+
+
+.covid1 P{
+    font-size: 16px;
+    color: #4E4E4E;
+    padding: 5px 6px 18px 7px;
+    line-height: 19px;
+}
+
+/* covid2 */
+
+.covid2{
+    background-color: #F5F5F5;
+    padding-left: 1px;
+    margin-right: 12px;
+}
+
+.covid2 img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.covid2 .infect .care{
+    background-color: #7B1FA2;
+    padding: 1px;
+    margin: 1px;
+    margin-bottom: -9px;
+    font-size: 3px;
+}
+
+
+.covid2 .care h1 a{
+    text-decoration: none;
+    color: #F5F5F5;
+    font-size: 17px;
+    margin-left: 0px;
+    text-align: justify;
+    padding: 0px;
+}
+
+
+.covid2 P{
+    font-size: 16px;
+    color: #4E4E4E;
+    padding: 5px 6px 18px 7px;
+    line-height: 19px;
+}
+
+/* covid3 */
+
+
+.covid3{
+    background-color: #F5F5F5;
+    padding-left: 1px;
+    margin-right: 12px;
+}
+
+.covid3 img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.covid3 .faq .freq{
+    background-color: #00796B;
+    padding: 1px;
+    margin: 1px;
+    margin-bottom: -9px;
+    font-size: 3px;
+}
+
+
+.covid3 .freq h1 a{
+    text-decoration: none;
+    color: #F5F5F5;
+    font-size: 17px;
+    margin-left: 0px;
+    text-align: justify;
+    padding: 0px;
+}
+
+
+.covid3 P{
+    font-size: 16px;
+    color: #4E4E4E;
+    padding: 5px 6px 18px 7px;
+    line-height: 19px;
+}
+
+/* hr */
+
+hr{
+    color: #F5F5F5;
+    margin: 2px;
+    margin-right: 87px;
+    margin-left: 75px;
+    margin-top: -22px;
+}
+
+
+
+/* section. section-d */
+
+.section-d .grid-container{
+    margin-bottom: 12px;
+}
+
+
+.videos .youtube-header{
+    background-color: #388E3C;
+    padding: 3px 9px 1px 0px;
+}
+
+
+.videos .youtube-header h1{
+    color: #F5F5F5;
+    font-size: 19px;
+    margin-left: 12px;
+}
+
+.videos{
+    margin: 10px;
+}
+
+.videos .youtube-video{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: -2px;
+    padding: 6px 4px 3px 0px;;
+}
+
+.videos .youtube-foot{
+    background-color: #388E3C;
+    padding: 3px 9px 1px 0px;
+
+}
+
+.videos .youtube-foot p{
+    color: red;
+    font-size: 19px;
+    margin-left: 12px;
+}
+
+.videos .youtube-foot p a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.section-d .grid-container .grid-50{
+    padding: 20px;
+}
 
 
 
